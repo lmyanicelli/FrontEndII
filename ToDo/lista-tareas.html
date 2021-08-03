@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN sweetalert2-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--CDN Animaciones AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="./styles/lista-tareas.css">
+    <script src="scripts/todos.js"></script>
+    <title>ToDo</title>
+  </head>
+  
+  <body>
+ 
+  <header>
+    <nav>
+      <a href="#">My ToDo's</a>
+    </nav>
+
+    <div class="user-info">
+      <p id="username">username</p>
+      <div class="user-image"></div>
+      <button id="cerrarSesion">Cerrar Sesión</button>
+    </div>
+  </header>
+
+
+  <form id="formNuevaTarea" class="nueva-tarea">
+   <!-- <div class="not-done "></div> -->
+    <input type="text" placeholder="Nueva tarea" id="nuevaTarea" required>
+    <button type="submit" id="btn-plus">
+      <img src="./assets/plus.png" alt="Agregar Tarea">
+    </button>
+  </form>
+
+
+  <ul class="tareas-pendientes">
+    
+  </ul>
+
+  <h2 class="titulo-terminadas">Tareas terminadas</h2>
+  <ul class="tareas-terminadas">
+  </ul>
+
+  <!--Probando animaciones-->
+  <div data-aos="zoom-in" data-aos-duration="4000">
+    <div class="animandoAOS">
+      <p>Probando animaciones AOS</p>
+    </div>
+  </div>
+
+  <script src="./scripts/loaders.js"></script>
+</body>
+
+</html>

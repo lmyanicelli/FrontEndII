@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN SWEETALERT2-->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>ToDo Crear Cuenta</title>
+</head>
+<body>
+
+  <form method="POST" id="formRegister" action="lista-tareas.html">
+    <h1>Nueva cuenta</h1>
+
+    <label>
+      Nombre:
+      <input id="firstName" type="text" name="firstName" required>
+    </label>
+    <label>
+      Apellido:
+      <input id="lastName" type="text" name="lastName" required>
+    </label>
+    <label>
+      Contraseña:
+      <input id="password" type="password" name="password" required>
+    </label>
+    <label>
+      Repetir contraseña:
+      <input id="repassword" type="password" name="repassword" required>
+    </label>
+    <label>
+      Email:
+      <input id="email" type="email" name="email" required>
+    </label>
+
+    <button type="submit">Crear Cuenta</button>
+
+    <div class="form-footer">
+      <p>ToDo</p>
+    </div>
+  </form>
+
+  <script src="scripts/register.js"></script>
+  <script src="./scripts/loaders.js"></script>
+</body>
+</html>

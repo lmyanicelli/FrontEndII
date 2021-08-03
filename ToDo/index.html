@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CDN SWEETALERT2-->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>ToDo</title>
+</head>
+<body>
+
+  <form method="POST" id="formLogin" class="clase-probando">
+    <h1>Login</h1>
+
+  <!--  <div class="image"></div> --> 
+
+    <label>
+      Email:
+      <input id="email" type="email">
+    </label>
+    <label>
+      Contraseña:
+      <input id="password" type="password">
+    </label>
+  
+    <button type="submit">Iniciar Sesión</button>
+ 
+    <div>
+      <p>¿No tenés cuenta aún?</p>
+      <a class="crear-cuenta" href="crear-cuenta.html">Crear cuenta nueva</a>
+    </div>
+   
+    <div class="form-footer">
+      <p>ToDo</p>
+    </div>
+  </form>
+
+  <script src="scripts/index.js"></script>
+  <script src="./scripts/loaders.js"></script>
+</body>
+</html>
