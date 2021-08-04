@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root{
+    --primaryColor : #194350;
+    --secondaryColor : #FF8882;
+    --tertiaryColor: #FFC2B4;
+    --quaternaryColor : #9DBEB9;
+    --stop: #FF4848;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--secondaryColor), var(--tertiaryColor));
+    color: whitesmoke;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1{
+    background-color: var(--primaryColor);
+}
+
+h2{
+    margin: 10px auto;
+    color: black;   
+    max-width: 200px;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: var(--stop);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.again {
+    background-color: var(--quaternaryColor);
+}
+
+h3 {
+    background-color: var(--primaryColor);
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin: 10px auto;
+    max-width: 200px;
+}
+
+.time-out {
+    background-color: var(--stop);
+}
+
+.hidden {
+    display: none;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5px auto;
+    max-width: 300px;
+}
+
