@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Frutti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Tutti Frutti</h1>
+
+    <main>
+        <h2 id="cuenta"></h2>
+        <button id="btn-letter">START LETTER</button>
+
+        <div id="cronometer">
+            <h3 id="time">00:00</h3>
+        </div>
+        <div id="tabla" class="game">
+            <label for="name">Name</label>
+            <input type="text" name="name" readonly=true>
+            <label for="object">Object</label>
+            <input type="text" name="object" readonly=true>
+            <label for="color">Color</label>
+            <input type="text" name="color" readonly=true>
+            <label for="animal">Animal</label>
+            <input type="text" name="animal" readonly=true>
+            <label for="food">Food</label>
+            <input type="text" name="food" readonly=true>
+            <label for="country">Country/City</label>
+            <input type="text" name="country" readonly=true>
+            <label for="movie">Movie/Serie</label>
+            <input type="text" name="movie" readonly=true>
+        </div>
+        <button id="btn-time" class="start" disabled=true>FINISH</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
