@@ -5,6 +5,9 @@ Projects of the Front End II subject - Certified Tech Developer career
 In this project the cards are rendered dynamically and the mode can be changed through a button 
 https://lmyanicelli.github.io/FrontEndII/Felinos/
 
+✔ Project Tutti Frutti: 
+In this project the cards are rendered dynamically and the mode can be changed through a button 
+https://lmyanicelli.github.io/FrontEndII/TuttiFrutti/
 
 ✔ Project PerfilDesarrollador: 
 First evaluable project
